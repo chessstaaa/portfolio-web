@@ -24,7 +24,7 @@ const Portfolio = () => {
     {
       title: "Platformer Pygame",
       desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet.",
-      image: "/porto-game.png",
+      image: "/SS1.png",
       projectLink: "https://github.com/chessstaaa/Platformer-Pygame",
     },
     {
