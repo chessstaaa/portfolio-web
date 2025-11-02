@@ -36,7 +36,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className="w-full bg-white">
+    <div id='portfolio' className="w-full bg-white">
         <div className="container mx-auto">
             <div className="py-40">
               <h1 className="font-semibold px-8 flex items-end gap-2">

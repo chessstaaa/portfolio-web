@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 
 const Contact = () => {
   return (
-    <div className="w-full bg-[url('/bg3.jpg')] bg-size-[400px]">
+    <div id='contact' className="w-full bg-[url('/bg3.jpg')] bg-size-[400px]">
       <div className='bg-white/65'>
         <div className="container mx-auto py-20">
             <div className="grid grid-cols-2 gap-30">

@@ -12,16 +12,16 @@ import Footer from "@/components/Footer";
 
 function Home(){
   return(
-    <div>
+    <div className="scroll-smooth">
       < Navbar />
-      < Main />
+      <div id="">< Main /></div>
       < Quotes />
-      < About />
-      < Skills />
-      < Portfolio />
+      <div id="#about">< About /></div>
+      <div id="#skills">< Skills /></div>
+      <div id="#portfolio">< Portfolio /></div>
       < Experience />
       < Testimonials />
-      < Contact />
+      <div id="#contact">< Contact /></div>
       < Footer />
     </div>
   );

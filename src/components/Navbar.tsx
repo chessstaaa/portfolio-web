@@ -8,18 +8,22 @@ function Navbar(){
       <div className="border container mx-auto flex justify-between items-center py-4 px-6 rounded-4xl bg-white shadow-md mt-4">
         <div>
           <span className="text-xl font-bold">
-            CHESTA
+            <a href="">CHESTA</a>
           </span>
         </div>
 
         <div className="hidden md:flex gap-4">
-          <a href="" className="font-semibold hover:underline">Home</a>
-          <a href="/about" className="font-semibold hover:underline">About</a>
-          <a href="" className="font-semibold hover:underline">Skills</a>
-          <a href="" className="font-semibold hover:underline">Portfolio</a>
+          <a href="#home" className="font-semibold hover:underline transition-colors">Home</a>
+          <a href="#about" className="font-semibold hover:underline transition-colors">About</a>
+          <a href="#skills" className="font-semibold hover:underline transition-colors">Skills</a>
+          <a href="#portfolio" className="font-semibold hover:underline transition-colors">Portfolio</a>
         </div>
 
-        <Button variant="outline" className="hidden md:block font-semibold rounded-3xl hover:bg-black hover:text-white">Contact Me</Button>
+        <a href="#contact">
+          <Button variant="outline" className="hidden md:block font-semibold rounded-3xl hover:bg-black hover:text-white transition-all">
+            Contact Me
+          </Button>
+        </a>
 
         <HiOutlineMenu className="block md:hidden text-2xl" />
 

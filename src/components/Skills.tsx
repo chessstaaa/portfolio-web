@@ -30,7 +30,7 @@ function Skills() {
   ];
 
   return (
-    <div className="w-full bg-[url('/bg2.jpg')] bg-size-[600px]">
+    <div id="skills" className="w-full bg-[url('/bg2.jpg')] bg-size-[600px]">
       <div className="bg-white/96">
         <div className="container mx-auto">
           <div className="py-8 md:py-40">

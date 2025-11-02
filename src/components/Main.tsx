@@ -5,7 +5,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 function Main(){
   return(
-    <div className="lg:mt-16 mt-24">
+    <div id="home" className="lg:mt-16 mt-24">
       <div className="container mx-auto px-8 py-4 ">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 ">
           {/* LEFT SIDE */}

@@ -55,6 +55,10 @@
 } */
 
 /* Gaya dasar body */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }

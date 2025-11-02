@@ -1,6 +1,6 @@
 function About(){
   return(
-    <div className="w-full bg-white">
+    <div id="about" className="w-full bg-white">
         <div className="container mx-auto">
             <div className="py-40">
               <h1 className="xl:text-4xl text-3xl font-semibold px-8 flex gap-2">
