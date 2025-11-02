@@ -8,8 +8,8 @@ const Portfolio = () => {
     {
       title: "Web Design: Personal Website",
       desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet.",
-      image: "/coming-soon.jpg",
-      projectLink: "https://example.com/personal-website",
+      image: "/personal-porto-web.png",
+      projectLink: "https://github.com/chessstaaa/portfolio-web",
     },
     {
       title: "Web Design: Smartech",

@@ -13,7 +13,7 @@ function PortoCard(props: PortoCardProps) {
   return (
     <div className="bg-white rounded-lg p-0 overflow-hidden border shadow-md flex flex-col">
       {props.image && (
-        <img src={props.image} alt={props.title} className="w-full h-48 object-cover" />
+        <img src={props.image} alt={props.title} className="w-full h-48 border-b object-cover" />
       )}
 
       <div className="p-6 space-y-3 grow">
