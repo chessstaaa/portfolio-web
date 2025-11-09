@@ -10,22 +10,22 @@ function Skills() {
     {
       icon: <DiVisualstudio className="text-4xl" />,
       title: "Basic Programming",
-      desc: "Menguasai dasar-dasar bahasa pemrograman seperti Python, Javascript, dan C.",
+      desc: "Proficient in the fundamentals of programming languages such as Python, JavaScript, and C. Experienced in writing clean, efficient, and maintainable code while applying logical problem-solving and algorithmic thinking to develop practical solutions.",
     },
     {
       icon: <RiPenNibFill className="text-4xl" />,
       title: "UI & UX Design",
-      desc: "Menguasai dasar-dasar desain antarmuka dan pengalaman pengguna (UI/UX) menggunakan Figma dan prinsip desain modern.",
+      desc: "Skilled in the basics of User Interface (UI) and User Experience (UX) design using Figma and modern design principles. Able to create visually appealing and user-friendly interfaces focused on accessibility, consistency, and seamless user interaction.",
     },
     {
       icon: <RiComputerLine className="text-4xl" />,
       title: "Web Development",
-      desc: "Menguasai dasar-dasar pengembangan web menggunakan HTML, CSS, dan framework seperti React dan Next.js.",
+      desc: "Knowledgeable in the core concepts of web development, including HTML, CSS, and popular frameworks like React and Next.js. Experienced in building responsive, dynamic, and high-performance websites that provide smooth user experiences across devices.",
     },
     {
       icon: <MdDesignServices className="text-4xl" />,
       title: "Graphic Design",
-      desc: "Menguasai dasar-dasar desain grafis menggunakan Adobe Photoshop, Illustrator, dan Canva.",
+      desc: "Proficient in the fundamentals of graphic design using Adobe Photoshop, Illustrator, and Canva. Capable of producing creative visual content that aligns with branding goals, combining aesthetic design with effective communication.",
     },
   ];
 

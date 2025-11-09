@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 
 interface PortoCardProps {
+  type: string;
   title: string;
   description: string;
   image?: string;
@@ -17,7 +18,7 @@ function PortoCard(props: PortoCardProps) {
       )}
 
       <div className="p-6 space-y-3 grow">
-        <p className="text-lg font-semibold">{props.title}</p>
+        <p className="text-md font-semibold">{props.type}: <span className="text-lg">{props.title}</span></p>
         <p className="text-justify">{props.description}</p>
       </div>
       

@@ -11,7 +11,7 @@ function Main(){
           {/* LEFT SIDE */}
           <div className="flex flex-col justify-center xl:space-y-6 space-y-5 ">
             <p className="xl:text-2xl text-xl">
-              Hey,
+              HI THERE,
             </p>
             <h1 className="xl:text-4xl text-3xl font-semibold">
               I'M <span className="text-5xl px-4 border rounded-full shadow-md hover:bg-black hover:text-white">Chesta</span>
@@ -22,9 +22,13 @@ function Main(){
             <p className="xl:text-lg text-md text-justify">
               A computer engineering student based in Indonesia with strong interests and skills in software development, particularly in web development, artificial intelligence, and data science. In addition, I have a passion for the arts, including graphic design, illustration, and animation.
             </p>
-            <div className="flex flex-col lg:flex-row justify-center lg:justify-start gap-2 ">
-              <Button size="lg" variant="outline" className="text-lg font-semibold rounded-3xl shadow-md hover:bg-black hover:text-white">Contact Me<BiSolidContact /></Button>
-              <Button size="lg" variant="outline" className="text-lg font-semibold rounded-3xl shadow-md hover:bg-black hover:text-white">Portfolio<FaArrowDown /></Button>
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-start gap-2">
+              <a href="#contact">
+                <Button size="lg" variant="outline" className="text-lg font-semibold rounded-3xl shadow-md w-full hover:bg-black hover:text-white">Contact Me<BiSolidContact /></Button>
+              </a>
+              <a href="#portfolio" >
+                <Button size="lg" variant="outline" className="text-lg font-semibold rounded-3xl shadow-md w-full hover:bg-black hover:text-white">Portfolio<FaArrowDown /></Button>
+              </a>
             </div>
 
           </div>
