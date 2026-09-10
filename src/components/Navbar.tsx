@@ -3,7 +3,7 @@ import { HiOutlineMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <div className="fixed left-0 top-0 z-50 w-full bg-[#32353b] border-b-3 border-[#d4cd88]">
+    <div className="fixed left-0 top-0 z-50 w-full bg-[#252525] border-b-3 border-[#9b3333]">
       <div className="container mx-auto flex items-center justify-between px-4 py-4 sm:px-8">
 
         {/* Logo */}
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="hidden sm:block">
           <a
             href="#contact"
-            className="bg-[#f7f7f9] text-[#32353b] hover:bg-[#191d20] hover:text-[#f7f7f9] font-semibold py-2 px-4 rounded-full transition duration-200"
+            className="bg-[#f7f7f9] text-[#252525] hover:bg-[#361d1d] hover:text-[#f7f7f9] hover:border hover:border-[#f7f7f9] font-semibold py-2 px-4 rounded-full transition duration-200"
           >
             Contact Me
           </a>

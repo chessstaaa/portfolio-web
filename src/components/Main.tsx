@@ -3,7 +3,7 @@ import { FaArrowDown, FaDownload } from "react-icons/fa";
 
 function Main() {
   return (
-    <div id="home" className="lg:mt-14 mt-24 border-b bg-[#f7f8fa]">
+    <div id="home" className="lg:mt-14 mt-24 border-b bg-[#f7f4ee]">
       <div className="container mx-auto px-8 py-4 ">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 ">
 
@@ -29,12 +29,12 @@ function Main() {
             {/* BUTTONS */}
             <div className="flex flex-col lg:flex-row justify-center lg:justify-start gap-2">
               <a href="#">
-                <button className="text-lg text-[#191d20] font-semibold px-4 py-2 border rounded-full w-full bg-white hover:bg-[#191d20] hover:text-[#f7f7f9] flex items-center justify-center gap-2 transition duration-200">
+                <button className="text-lg text-[#f7f7f9] font-semibold px-4 py-2 border rounded-full w-full bg-[#9b3333] hover:bg-[#de3535] hover:text-[#f7f7f9] flex items-center justify-center gap-2 transition duration-200">
                   Download CV<FaDownload />
                 </button>
               </a>
               <a href="#portfolio" >
-                <button className="text-lg text-[#191d20] font-semibold px-4 py-2 border rounded-full w-full bg-white hover:bg-[#191d20] hover:text-[#f7f7f9] flex items-center justify-center gap-2 transition duration-200">
+                <button className="text-lg text-[#f7f7f9] font-semibold px-4 py-2 border rounded-full w-full bg-[#9b3333] hover:bg-[#de3535] hover:text-[#f7f7f9] flex items-center justify-center gap-2 transition duration-200">
                   Portfolio<FaArrowDown />
                 </button>
               </a>

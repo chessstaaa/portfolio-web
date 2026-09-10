@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div id="about" className="w-full bg-white">
+    <div id="about" className="bg-[#f7f7f9] border-b">
       <div className="container mx-auto px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-10">
 
@@ -9,8 +9,8 @@ function About() {
 
           {/* RIGHT SIDE: ABOUT ME */}
           <div className="flex flex-col">
-            <h1 className="xl:text-4xl text-3xl font-semibold mb-8">
-              <span className="hover:underline">ABOUT ME:</span>
+            <h1 className="xl:text-4xl text-3xl font-bold mb-8">
+              ABOUT ME:
             </h1>
             <p className="text-md sm:text-lg text-justify mb-6">
               I am a Computer Engineering graduate from Telkom University, Bandung, currently based in Bogor. I have a foundational background in web development, with a focus on front-end design using Next.js and Tailwind CSS. In addition, I possess basic knowledge of programming languages such as Python, C, and Java, and have a strong interest in cloud computing, machine learning/deep learning, and data science.
