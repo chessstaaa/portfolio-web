@@ -1,102 +1,41 @@
-'use client';
-import { useState } from 'react';
+import React from 'react'
 import { HiOutlineMenu, HiX } from "react-icons/hi";
-import { FaCopyright } from "react-icons/fa";
-import { FaChevronRight } from "react-icons/fa";
 
+const Navbar = () => {
+  return (
+    <div className="fixed left-0 top-0 z-50 w-full bg-[#32353b] border-b-3 border-[#d4cd88]">
+      <div className="container mx-auto flex items-center justify-between px-4 py-4 sm:px-8">
 
-function Navbar(){
-
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
-
-  return(
-    <div className="px-2 fixed top-0 left-0 w-full z-50">
-      <div className="border container mx-auto flex justify-between items-center py-4 px-4 sm:px-8 rounded-4xl bg-white/95 shadow-md mt-2">
+        {/* Logo */}
         <div className="text-2xl font-bold">
-          <a href="/" className="flex gap-0.5 items-center"><FaCopyright />HESTA</a>
+          <a href="#home" className="text-[#f7f7f9]">CHESTA</a>
         </div>
 
-        <div className="hidden md:flex gap-4">
-          <a href="#home" className="font-semibold hover:underline hover:decoration-3 hover:underline-offset-4 hover:text-[#656162] transition-colors">HOME</a>
-          <a href="#about" className="font-semibold hover:underline hover:decoration-3 hover:underline-offset-4 hover:text-[#656162] transition-colors">ABOUT</a>
-          <a href="#skills" className="font-semibold hover:underline hover:decoration-3 hover:underline-offset-4 hover:text-[#656162] transition-colors">SKILLS</a>
-          <a href="#portfolio" className="font-semibold hover:underline hover:decoration-3 hover:underline-offset-4 hover:text-[#656162] transition-colors">PORTFOLIO</a>
-          <a href="#contact" className="font-semibold hover:underline hover:decoration-3 hover:underline-offset-4 hover:text-[#656162] transition-colors">CONTACT</a>
+        {/* Navigation Links */}
+        <div className="hidden sm:flex space-x-4 ">
+          <a href="#home" className="text-[#f7f7f9] hover:underline hover:decoration-2 hover:underline-offset-6">Home</a>
+          <a href="#about" className="text-[#f7f7f9] hover:underline hover:decoration-2 hover:underline-offset-6">About</a>
+          <a href="#services" className="text-[#f7f7f9] hover:underline hover:decoration-2 hover:underline-offset-6">Services</a>
+          <a href="#projects" className="text-[#f7f7f9] hover:underline hover:decoration-2 hover:underline-offset-6">Projects</a>
         </div>
 
-        <button 
-          onClick={toggleMenu}
-          className="block md:hidden text-2xl z-50"
-          aria-label="Toggle menu"
-        >
-          {isMenuOpen ? <HiX /> : <HiOutlineMenu />}
-        </button>
+        {/* Contact Button */}
+        <div className="hidden sm:block">
+          <a
+            href="#contact"
+            className="bg-[#f7f7f9] text-[#32353b] hover:bg-[#191d20] hover:text-[#f7f7f9] font-semibold py-2 px-4 rounded-full transition duration-200"
+          >
+            Contact Me
+          </a>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <div className="sm:hidden text-3xl text-[#f7f7f9] cursor-pointer">
+          <HiOutlineMenu />
+        </div>
       </div>
-
-      {isMenuOpen && (
-        <>
-          {/* Overlay */}
-          <div 
-            className="fixed inset-0 bg-black/50 md:hidden"
-            onClick={closeMenu}
-          />
-          <div className="fixed top-20 left-4 right-4 bg-white rounded-3xl shadow-lg py-6 px-4 md:hidden z-40">
-            <div className="flex flex-col gap-2">
-              <a 
-                href="#home" 
-                className="font-semibold hover:bg-gray-100 py-2 px-4 transition-colors flex justify-between items-center"
-                onClick={closeMenu}
-              >
-                HOME
-                <FaChevronRight />
-              </a>
-              <a 
-                href="#about" 
-                className="font-semibold hover:bg-gray-100 py-2 px-4 transition-colors flex justify-between items-center"
-                onClick={closeMenu}
-              >
-                ABOUT
-                <FaChevronRight />
-              </a>
-              <a 
-                href="#skills" 
-                className="font-semibold hover:bg-gray-100 py-2 px-4 transition-colors flex justify-between items-center"
-                onClick={closeMenu}
-              >
-                SKILLS
-                <FaChevronRight />
-              </a>
-              <a 
-                href="#portfolio" 
-                className="font-semibold hover:bg-gray-100 py-2 px-4 transition-colors flex justify-between items-center"
-                onClick={closeMenu}
-              >
-                PORTFOLIO
-                <FaChevronRight />
-              </a>
-              <a 
-                href="#contact" 
-                className="font-semibold hover:bg-gray-100 py-2 px-4 transition-colors flex justify-between items-center"
-                onClick={closeMenu}
-              >
-                CONTACT
-                <FaChevronRight />
-              </a>
-            </div>
-          </div>
-        </>
-      )}
     </div>
-
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
