@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Quotes from "@/components/Quotes";
 import Main from "@/components/Main";
 import About from "@/components/About-Me";
 import Skills from "@/components/Skills";
@@ -15,7 +14,6 @@ function Home(){
     <div className="scroll-smooth">
       < Navbar />
       <div id="">< Main /></div>
-      < Quotes />
       <div id="#about">< About /></div>
       <div id="#skills">< Skills /></div>
       <div id="#portfolio">< Portfolio /></div>

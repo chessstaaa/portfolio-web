@@ -1,16 +1,26 @@
-function About(){
-  return(
+function About() {
+  return (
     <div id="about" className="w-full bg-white">
-        <div className="container mx-auto">
-            <div className="py-40">
-              <h1 className="xl:text-4xl text-3xl font-semibold px-8 flex gap-2">
-                <span className="hover:underline">ABOUT ME.</span>
-              </h1>
-              <p className="px-4 sm:px-0 mt-8 text-md sm:text-lg text-justify">
-                I'm a Computer Engineering student based in Indonesia, with strong interests in software development, particularly in web development, artificial intelligence, and data science. I view technology as more than just code—it’s a way to create meaningful, optimized solutions that make an impact. Alongside my technical focus, I’m also passionate about the arts, including graphic design, illustration, and animation, believing that creativity and logic together can produce powerful and engaging digital experiences. Skilled in Python, JavaScript, and C, and familiar with tools like Figma, React, Next.js, and the Adobe Creative Suite, I strive to merge technical precision with artistic expression. For me, every project is a chance to learn, innovate, and grow into a developer and designer who bridges creativity and technology.
-              </p>
-            </div>
+      <div className="container mx-auto px-8 py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-10">
+
+          {/* LEFT SIDE: MY IMAGE */}
+          <img src="foto-hero.jpg" alt="foto-hero" className="w-full max-w-sm" />
+
+          {/* RIGHT SIDE: ABOUT ME */}
+          <div className="flex flex-col">
+            <h1 className="xl:text-4xl text-3xl font-semibold mb-8">
+              <span className="hover:underline">ABOUT ME:</span>
+            </h1>
+            <p className="text-md sm:text-lg text-justify mb-6">
+              I am a Computer Engineering graduate from Telkom University, Bandung, currently based in Bogor. I have a foundational background in web development, with a focus on front-end design using Next.js and Tailwind CSS. In addition, I possess basic knowledge of programming languages such as Python, C, and Java, and have a strong interest in cloud computing, machine learning/deep learning, and data science.
+            </p>
+            <p className="text-md sm:text-lg text-justify">
+              I am a highly motivated individual who is eager to continuously learn, improve my skills, and adapt to the rapidly evolving technology landscape. I am committed to growing as a professional and contributing meaningfully in the field of technology.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
   );
 }
